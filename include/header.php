@@ -30,4 +30,3 @@
             <link rel="stylesheet" href="js/testimonialcarousel/slick/style.css" media="all" />            
         <!-- /style -->
    </head>
-

@@ -56,6 +56,7 @@
         <!-- /Scroll to top -->
     
         <!-- All Script -->       
+        
             <script type='text/javascript' src='js/jquery/jquery.js'></script>    
             <script type='text/javascript' src='js/_main.js'></script> 
             <script type='text/javascript' src='js/packed.js'></script>    
@@ -72,6 +73,7 @@
             <script type='text/javascript' src='js/core.utils.min.js'></script>
             <script type='text/javascript' src='js/core.init.min.js'></script>                
             <script type='text/javascript' src='js/theme.shortcodes.js'></script> 
-            <script type='text/javascript' src='js/isotope.pkgd.min.js'></script>            
+            <script type='text/javascript' src='js/isotope.pkgd.min.js'></script>        
+            <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>    
         <!-- /All Script -->                 
 

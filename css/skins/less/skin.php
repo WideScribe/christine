@@ -246,7 +246,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('h1', array(
 			'title'			=> esc_html__('Heading 1', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Playfair Display',
+			'font-family'	=> 'texgyretermes',
 			'font-size' 	=> '3.666em',
 			'font-weight'	=> '400',
 			'font-style'	=> '',
@@ -258,7 +258,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('h2', array(
 			'title'			=> esc_html__('Heading 2', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Playfair Display',
+			'font-family'	=> 'texgyretermes',
 			'font-size' 	=> '3em',
 			'font-weight'	=> '400',
 			'font-style'	=> '',
@@ -270,7 +270,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('h3', array(
 			'title'			=> esc_html__('Heading 3', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Playfair Display',
+			'font-family'	=> 'texgyretermes',
 			'font-size' 	=> '2.333em',
 			'font-weight'	=> '400',
 			'font-style'	=> '',
@@ -282,7 +282,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('h4', array(
 			'title'			=> esc_html__('Heading 4', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Playfair Display',
+			'font-family'	=> 'Aller',
 			'font-size' 	=> '1.53em',
 			'font-weight'	=> '300',
 			'font-style'	=> '',
@@ -294,7 +294,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('h5', array(
 			'title'			=> esc_html__('Heading 5', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Roboto',
+			'font-family'	=> 'Aller',
 			'font-size' 	=> '1.4em',
 			'font-weight'	=> '400',
 			'font-style'	=> '',
@@ -306,7 +306,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('h6', array(
 			'title'			=> esc_html__('Heading 6', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Playfair Displays',
+			'font-family'	=> 'Aller',
 			'font-size' 	=> '1.2em',
 			'font-weight'	=> '400',
 			'font-style'	=> '',
@@ -318,7 +318,7 @@ if (!function_exists('cloe_brooks_action_skin_theme_setup')) {
 		cloe_brooks_add_custom_font('p', array(
 			'title'			=> esc_html__('Text', 'cloe-brooks'),
 			'description'	=> '',
-			'font-family'	=> 'Roboto',
+			'font-family'	=> 'Aller',
 			'font-size' 	=> '15px',
 			'font-weight'	=> '300',
 			'font-style'	=> '',
@@ -426,6 +426,31 @@ if (!function_exists('cloe_brooks_filter_skin_used_fonts')) {
 	}
 }
 
+// Add skin fonts (from Google fonts) in the main fonts list (if not present).
+// To use custom font-face you not need add it into list in this function
+// How to install custom @font-face fonts into the Template?
+// All @font-face fonts are located in "Template_name/css/font-face/" folder in the separate subfolders for the each font. Subfolder name is a font-family name!
+// Place full set of the font files (for each font style and weight) and css-file named stylesheet.css in the each subfolder.
+// Create your @font-face kit by using Fontsquirrel @font-face Generator (http://www.fontsquirrel.com/fontface/generator)
+// and then extract the font kit (with folder in the kit) into the "Template_name/css/font-face" folder to install
+if (!function_exists('cloe_brooks_filter_skin_list_fonts')) {
+	//add_filter('cloe_brooks_filter_list_fonts', 'cloe_brooks_filter_skin_list_fonts');
+	function cloe_brooks_filter_skin_list_fonts($list) {
+        if (!isset($list['Aller'])) {
+            $list['Aller'] = array(
+                'family' => 'sans-serif',
+                'css'    => cloe_brooks_get_file_url('/css/font-face/aller/stylesheet.css ')
+            );
+        }
+        if (!isset($list['texgyretermes'])) {
+            $list['texgyretermes'] = array(
+                'family' => 'serif',
+                'css'    => cloe_brooks_get_file_url('/css/font-face/tex-gyre-termes/stylesheet.css ')
+            );
+        }
+		return $list;
+	}
+}
 
 
 
