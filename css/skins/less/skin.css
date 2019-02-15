@@ -20,7 +20,7 @@ body {
   color: #B1B0AF;
 }
 h1 {
-  font-family: "texgyretermes", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3.666em;
   line-height: 1.3em;
   font-weight: 400;
@@ -28,7 +28,7 @@ h1 {
   margin-bottom: 0.275em;
 }
 h2 {
-  font-family: "texgyretermes", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3em;
   line-height: 1.3em;
   font-weight: 400;
@@ -36,7 +36,7 @@ h2 {
   margin-bottom: 0.333em;
 }
 h3 {
-  font-family: "texgyretermes", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 2.333em;
   line-height: 1.3em;
   font-weight: 400;
@@ -1400,7 +1400,7 @@ textarea {
   margin-bottom: 2.16645em;
 }
 .top_panel_inner_style_3 .top_panel_middle .logo {
-  margin-top: 3.89961em;
+  margin-top: 1.89961em;
   margin-bottom: 2.79972em;
 }
 .scheme_original .top_panel_middle .contact_icon:before {
@@ -3475,7 +3475,7 @@ textarea {
 }
 .post_item_404 .page_title,
 .post_item_404 .page_subtitle {
-  font-family: "texgyretermes", serif;
+  font-family: 'Playfair Display', serif;
 }
 .scheme_original .post_item_404 .page_title,
 .scheme_original .post_item_404 .page_subtitle {
@@ -6148,7 +6148,7 @@ textarea {
   font-family: "Aller", sans-serif;
 }
 .booking_weekdays_custom {
-  font-family: "texgyretermes", serif;
+  font-family: 'Playfair Display', serif;
 }
 .scheme_original .booking_month_container_custom,
 .scheme_original .booking_month_navigation_button_custom {
@@ -7519,7 +7519,7 @@ button,
   color: #ffffff;
 }
 .sc_dropcaps .sc_dropcaps_item {
-  font-family: "texgyretermes", serif;
+  font-family: 'Playfair Display', serif;
 }
 .scheme_original .sc_dropcaps .sc_dropcaps_item {
   color: #ffffff;
@@ -9980,7 +9980,7 @@ button,
 }
 .minimal-light .esg-filterbutton {
   color: #b1b0af !important;
-  font-family: 'Aller' !important;
+  font-family: 'Roboto' !important;
 }
 .minimal-light .esg-filterbutton.selected,
 .minimal-light .esg-filterbutton:hover {
@@ -9989,7 +9989,7 @@ button,
 .minimal-light .esg-navigationbutton {
   background-color: #f9f5f2 !important;
   color: #33302e !important;
-  font-family: 'Aller' !important;
+  font-family: 'Roboto' !important;
 }
 .minimal-light .esg-navigationbutton:hover,
 .minimal-light .esg-navigationbutton.selected {

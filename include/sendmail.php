@@ -1,38 +1,27 @@
 <?php 
-global $_REQUEST;
-$response = array('error'=>'');
-$contact_email = 'your_mail@mail.com';
-
-// type
-$type = $_REQUEST['type'];	
-// parse
-parse_str($_POST['data'], $post_data);	
-		
-
-		$user_name = stripslashes(strip_tags(trim($post_data['username'])));
-		$user_email = stripslashes(strip_tags(trim($post_data['email'])));
-		$user_subject = stripslashes(strip_tags(trim($post_data['subject'])));
-		$user_msg =stripslashes(strip_tags(trim( $post_data['message'])));
-			
-		if (trim($contact_email)!='') {
-			$subj = 'Message from Cloe Brooks HTML Template';
-			$msg = $subj." \r\nName: $user_name \r\nE-mail: $user_email \r\nSubject: $user_subject \r\nMessage: $user_msg";
-		
-			$head = "Content-Type: text/plain; charset=\"utf-8\"\n"
-				. "X-Mailer: PHP/" . phpversion() . "\n"
-				. "Reply-To: $user_email\n"
-				. "To: $contact_email\n"
-				. "From: $user_email\n";
-		
-			if (!@mail($contact_email, $subj, $msg, $head)) {
-				$response['error'] = 'Error send message!';
-			}
-		} else 
-				$response['error'] = 'Error send message!';	
-		
-		
-
-	//echo json_encode($post_data['username'].''.$post_data['email'].''$post_data['subject'].''.$post_data['message']);	
-	echo json_encode($response);
-	die();
+if (!isset($_POST["submit"])) { ?>
+ 
+  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+   To: <input type="text" name="to_email"><br>
+   From: <input type="text" name="from_email"><br>
+   Subject: <input type="text" name="subject"><br>
+   Message: <textarea rows="10" cols="20" name="message"></textarea><br>
+   <input type="submit" name="submit" value="Send Email">
+  </form>
+<?php
+} else {
+ 
+  if (isset($_POST["to_email"])) {
+    $to_email = $_POST["to_email"];
+    $from_email = $_POST["from_email"];
+    $subject = $_POST["subject"];
+    $body = $_POST["message"];
+    $message = wordwrap($message, 70);
+    if (mail($to_email, $subject, $body, "From: $from_email rn")) {
+      echo("Email successfully sent to $to_email...");
+    } else {
+      echo("Email sending failed...");
+    }
+  }
+}
 ?>

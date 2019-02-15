@@ -6,7 +6,7 @@
     CLOE_BROOKS_STORAGE['ajax_nonce'] = '011affe4dd';
     CLOE_BROOKS_STORAGE['site_url'] = 'http://cloe-brooks-html.themerex.net';
     CLOE_BROOKS_STORAGE['edit_mode'] = false;
-    CLOE_BROOKS_STORAGE['theme_font'] = 'Aller';
+    CLOE_BROOKS_STORAGE['theme_font'] = 'Roboto';
     CLOE_BROOKS_STORAGE['theme_skin'] = 'less';
     CLOE_BROOKS_STORAGE['theme_skin_color'] = '#33302e';
     CLOE_BROOKS_STORAGE['theme_skin_bg_color'] = '#ffffff';
@@ -94,7 +94,7 @@
 
 // template parameters
     if (typeof CLOE_BROOKS_STORAGE == 'undefined') var CLOE_BROOKS_STORAGE = {};
-    if (CLOE_BROOKS_STORAGE['theme_font'] == '') CLOE_BROOKS_STORAGE['theme_font'] = 'Aller';
+    if (CLOE_BROOKS_STORAGE['theme_font'] == '') CLOE_BROOKS_STORAGE['theme_font'] = 'Roboto';
     CLOE_BROOKS_STORAGE['theme_skin_color'] = '#33302e';
     CLOE_BROOKS_STORAGE['theme_skin_bg_color'] = '#ffffff'; 
 
