@@ -96,7 +96,7 @@
                                      <li>"Intuitive Development" kurs hos Phd Caroline Myss.</li>
                          
                                     
-                                 </ul
+</ul>
                                     <h3>Gjestelærer / seminarerfaring</h3>
                                     <ul>
                                         <li>  I 10 år ledet kvinnekurs i egenutvikling, ”Ways of Woman” i Europa, i samarbeid Helena Løvendal-Duffell, leder av ”Sexual grounding therapy”. </li>
@@ -109,7 +109,7 @@
                                     
                                     </ul>
 
-                                 >
+                            
                                     <img class="imgArticle" alt="Utdanning" src="images/om-meg-rose.jpg">
                                     <h3>Annen erfaring</h3>
                                     <ul>
