@@ -4,9 +4,13 @@
 @import url('responsive-outer-sidebar.css');
 */
 
+
+
+
 /* Responsive styles (without sidemenu)
 -------------------------------------------------------------- */
 @media (min-width: 1200px) {
+
 	.col_right {
 	    left: 26%;
 	}
@@ -42,7 +46,11 @@
 		line-height: 2em !important;
 		padding: 0.47em 1.3em !important;
 	}
+	.about_img img{
+		width: 80%;
+		margin-top:50px;
 
+	}
 
 }
 @media (min-width: 1440px) and (max-width: 1509px) {
@@ -88,7 +96,7 @@ Apple iPod Touch (5th generation)
 	display: none;
 }
 	.top_panel_wrap .logo_main {
-	    width: 75%;
+	
 	}
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:1060px; }
@@ -260,7 +268,11 @@ Apple iPod Touch (5th generation)
 		display: none !important;
 	}
 	.img_cover_about_me {
-	    max-height: 459px !important;
+	  height: 700px;
+	}
+	.about_img img {
+		margin-top:50px;
+
 	}
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:100%; }
@@ -387,8 +399,8 @@ Apple iPod Touch (4th generation)
 	body.index2 .header_mobile .logo_main {
 	    display: none !important;
 	}
-		.top_panel_wrap .logo_main {
-	    width: 70%;
+	.top_panel_wrap .logo_main {
+	 
 	}
 	#logo_main{
 		display: none !important;
@@ -882,7 +894,7 @@ Samsung Galaxy
 
 	/* Rev Slider */
 	#rev_slider_1_1 .home_1_subtitle {
-		font-size: 11px !important;
+		font-size: 23px !important;
 
 	}
 	#rev_slider_1_1 .home1_text {
@@ -1780,8 +1792,8 @@ Very common low res
 		margin-bottom: 1.79972em;
 	}
 	.top_panel_inner_style_3 .top_panel_middle .menu_main_wrap {
-		margin-bottom: 2.13em;
-		margin-top: 2.8em;
+		margin-bottom: 0.13em;
+		margin-top: 0.8em;
 	}
 	.contacts_wrap_inner {
 		padding: 6.3em 0 4.25em;
@@ -1995,7 +2007,8 @@ Very common low res
 	    padding-right: 1.3em;
 	    padding-left: 2.5em;
 	    position: relative;
-	    width: 60%;
+		width: 60%;
+		min-width: unset;
 	}
 	.sc_services_style_services-1.sc_services_type_images .sc_services_item_title {
 	    font-weight: 400;
@@ -2330,7 +2343,7 @@ Very common low res
 	    font-size: 12px;
 	}
 	.img_cover_about_me {
-	    background-color: #fcf7f1 !important;
+		background-color:#fbedde !important;
 	    max-height: 1568px !important;
 	    background-size: cover;
 	}
@@ -2500,7 +2513,7 @@ Very common low res
 	.sc_events_style_events-1 .sc_events_item {
 	    padding: 25px !important;
 	}
-	.scheme_original h5 a, {
+	.scheme_original h5 a {
 	    font-size: 15px !important;
 	}
 	.my_education .column-1_2{
@@ -2529,10 +2542,13 @@ Very common low res
 	    width: 156px;
 	    height: auto;
 	}
-	.scheme_original .sc_services_style_services-5 .sc_icon {
-	    color: #72b5ca;
-	    float: left;
+	
+	.scheme_original .sc_services_item {
+	 
+	 
 	}
+
+	
 	p.center {
 	    text-align: center;
 	    font-size: 12px !important;
@@ -2873,7 +2889,7 @@ Very common low res
 	}
 	.sc_services_wrap .columns_wrap {
 	    margin-right: 0px;
-	    padding: 40px;
+	    padding: 10px;
 	}
 	.sc_services_wrap .sc_item_descr{
 		width: 70%;
@@ -3888,7 +3904,7 @@ Very common low res
 	    font-size: 14px;
 	}
 	.img_cover_about_me {
-	    background-color: #fcf7f1 !important;
+	    background-color: #fbedde !important;
 	    max-height: 875px !important;
 	}
 	body.home2 .bg_make_booking {

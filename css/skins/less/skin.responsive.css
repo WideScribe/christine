@@ -13,8 +13,8 @@ Apple iPod Touch (5th generation)
 /* Without side menu */
 @media (min-width: 1136px) and (max-width: 1279px) {
 	html, body {	font-size: 14px; }
+	
 }
-
 
 /*
 Apple iPhone 4 & 4S
@@ -318,11 +318,12 @@ Very common low res
 	}
 	blockquote {
 		font-size: 1.25em;
-		margin: 1em 0 1em;
-		padding: 2em 2em;
+		margin: 0.4em 0 0.4em;
+		padding: 0.5em 0.5em;
 	}
 	blockquote:before {
 		left: 0.6em;
+		color:blue;
 	}
 	blockquote:after {
 		right: 0.6em;

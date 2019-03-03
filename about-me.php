@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US" class="scheme_original">
+<html lang="no-nb" class="scheme_original">
 <?php
  include "include/header.php"
 
@@ -23,7 +23,7 @@
                     <div class="content_wrap">
                         <div class="menu_button icon-menu"></div>
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="http://placehold.it/330x53" class="logo_main" alt="">
                             </a>
                         </div>
@@ -37,7 +37,7 @@
                                     <a href="#">Home</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item">
-                                            <a href="index.html">Home 1</a>
+                                            <a href="index.php">Home 1</a>
                                         </li>
                                         <li class="menu-item">
                                             <a href="index-2.html">Home 2</a>
@@ -71,7 +71,7 @@
                                             <a href="typography.html">Typography</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a target="_blank" href="doc/index.html">Documentation</a>
+                                            <a target="_blank" href="doc/index.php">Documentation</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -183,11 +183,7 @@
                 <div class="top_panel_title_inner top_panel_inner_style_3 title_present_inner breadcrumbs_present_inner panel_img">
                     <div class="content_wrap">
                         <h1 class="page_title">About Me</h1>
-                        <div class="breadcrumbs">
-                            <a class="breadcrumbs_item home" href="index.html">Home</a>
-                            <span class="breadcrumbs_delimiter"></span>
-                            <span class="breadcrumbs_item current">About Me</span>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -465,7 +461,7 @@
                                     <div class="sc_section_content_wrap">
                                         <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
                                             <div class="column-1_2 sc_column_item sc_column_item_1 odd first">
-                                                <div class="cq-draggable-container " data-draggingbarbgcolor="#edb39b" data-defaultbarbgcolor="#fcf7f1" data-avatarstyle="text" data-activeiconcolor="" data-autoplay="no" data-autoplayspeed="5000" data-labelcolor="#6f6f6f" data-dragbuttonwidth="" data-contaienrwidth="">
+                                                <div class="cq-draggable-container " data-draggingbarbgcolor="#edb39b" data-defaultbarbgcolor="#fbedde " data-avatarstyle="text" data-activeiconcolor="" data-autoplay="no" data-autoplayspeed="5000" data-labelcolor="#6f6f6f" data-dragbuttonwidth="" data-contaienrwidth="">
                                                     <div class="cq-draggable-slider">
                                                         <div class="cq-draggable-stripe">
                                                             <div class="cq-draggable-handle">
@@ -534,7 +530,7 @@
                 <div class="contacts_wrap_inner">
                     <div class="content_wrap">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="http://placehold.it/280x134" class="logo_footer" alt="">
                             </a>
                         </div>

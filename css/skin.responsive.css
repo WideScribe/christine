@@ -13,6 +13,11 @@ Apple iPod Touch (5th generation)
 /* Without side menu */
 @media (min-width: 1136px) and (max-width: 1279px) {
 	html, body {	font-size: 14px; }
+	.imgArticle{
+		float: unset; 
+		 width: unset; 
+		 padding: unset; 
+	}
 }
 
 
@@ -32,6 +37,11 @@ Apple iPod Touch (4th generation)
 	h4 { font-size:1.3846em; }	/* 18px */
 	h5 { font-size:1.2308em; }	/* 16px */
 	h6 { font-size:1em; }		/* 13px */
+	.imgArticle{
+		float: unset; 
+		 width: unset; 
+		 padding: unset; 
+	}
 
 	/* Post layouts */
 	.isotope_filters a {
@@ -186,7 +196,11 @@ Samsung Galaxy
 	h4 { font-size:1.3333em; }	/* 16px */
 	h5 { font-size:1.1667em; }	/* 14px */
 	h6 { font-size:1em; }		/* 12px */
-	
+	.imgArticle{
+		float: unset; 
+		 width: unset; 
+		 padding: unset; 
+	}
 	/* Post layouts */
 	.isotope_filters a {
 		font-size:0.8333em;
@@ -265,6 +279,12 @@ Very common low res
 	h5 { font-size:1.1667em; }	/* 14px */
 	h6 { font-size:1em; }		/* 12px */
 	
+	.imgArticle{
+		float: unset; 
+		 width: unset; 
+		 padding: unset; 
+	}
+	
 	/* Post layouts */
 	.isotope_filters a {
 		font-size:0.8333em;
@@ -319,13 +339,15 @@ Very common low res
 	blockquote {
 		font-size: 1.25em;
 		margin: 1em 0 1em;
-		padding: 2em 2em;
+		padding: 1em 1em;
 	}
 	blockquote:before {
-		left: 0.6em;
+		left: 0.3em;
+		top: 0.3em;
 	}
 	blockquote:after {
 		right: 0.6em;
+		top: 1.7em;
 	}
 	figure figcaption,
 	.sc_image figcaption {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="scheme_original">
+<html lang="no-nb" class="scheme_original">
 <?php
  include "include/header.php"
 
@@ -25,10 +25,7 @@
                 <div class="top_panel_title_inner top_panel_inner_style_3 title_present_inner breadcrumbs_present_inner panel_img">
                     <div class="content_wrap">
                         <h1 class="page_title">Psykoterapi</h1>
-                        <div class="breadcrumbs">
-                            <a class="breadcrumbs_item home" href="index.html">Home</a>
-                      
-                        </div>
+                     
                     </div>
                 </div>
             </div>
@@ -40,35 +37,17 @@
                     <div class="content">
                         <!-- post-content -->
                         <div class="itemscope post_item post_item_single post_featured_default post_format_standard post type-post status-publish format-standard has-post-thumbnail hentry category-standard-blog category-without-sidebar tag-my-office tag-presentations">
-                            <div class="post_featured">
-                                <div class="post_thumb">
-                                    <a class="hover_icon hover_icon_view" href="images/bilde-10.jpg" title="Dealing with Mental Trauma of Severe Desease">
-                                        <img alt="Dealing with Mental Trauma of Severe Desease" src="images/bilde-10.jpg">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="post_content">
+                  
+                            <div class="post_content"  id="psykoterapi">
                                 <div class="post_info">
 
                                 <h1>Psykoterapi for egen utvikling</h1>
-                                    <span class="post_info_item post_info_tags">in 
-                                        <a class="category_link" href="category-standard-blog.html">Standard Blog</a>, 
-                                        <a class="category_link" href="category-without-sidebar.html">Without Sidebar</a>
-                                    </span>
-                                    <span class="post_info_item post_info_posted"> 
-                                        <a href="post-standard.html" class="post_info_date date updated">February 20, 2016</a>
-                                    </span>
-                                    <span class="post_info_item post_info_counters"> 
-                                        <a class="post_counters_item post_counters_comments icon-chat" title="Comments - 1" href="#">
-                                            <span class="post_counters_number">1</span>
-                                        </a>
-                                        <a class="post_counters_item post_counters_likes icon-heart-empty enabled" title="Like" href="#">
-                                            <span class="post_counters_number">0</span>
-                                        </a>
-                                    </span>
+                                    
                                 </div>
+                                 
                                 <p>
-                                Når du lengter etter glede i livet og ikke finner veien selv, er psykoterapi en hjelp underveis. Alle sliter vi i perioder med kriser, kaos og konflikter. Følelsen av å ikke mestre livet, ha verdi, få til nære relasjoner, stress og uro, eller meningsløshet ved å leve på auto-gir er fortærende. De fleste ønsker å være bærekraftig medskapende i eget liv, og i samarbeidet med Christine A. Schjetlein får du faglig hjelp til å forløse knutene og nære din selvutvikling. 
+                                <img class="imgArticle" alt="Psykoterapi" src="images/bilde-10.jpg">
+                               Når du lengter etter glede i livet og ikke finner veien selv, er psykoterapi en hjelp underveis. Alle sliter vi i perioder med kriser, kaos og konflikter. Følelsen av å ikke mestre livet, ha verdi, få til nære relasjoner, stress og uro, eller meningsløshet ved å leve på auto-gir er fortærende. De fleste ønsker å være bærekraftig medskapende i eget liv, og i samarbeidet med Christine A. Schjetlein får du faglig hjelp til å forløse knutene og nære din selvutvikling. 
 Tilnærmingen til ditt indre arbeid er en helhetlig bevisstgjøringsprosess på alle områder i livet. I det psykoterapeutiske forløpet åpner vi fastfrosne minner med emosjonelle reaksjoner. Når du lærer å møte dem med aktiv aksept slipper smerte taket, og du gjenvinner livskraft og dine ressurser. Ofte finner man at motivasjonen til slikt arbeid kommer mer fra hjertet enn hodet.   </p>
 <h3>Økt selvinnsikt med mindfulness
 </h3>                               
@@ -83,43 +62,24 @@ Vi starter med den vanskelig samtalen, som etter hvert blir til den gode samtale
  
  Å våge oss selv øker vår vitalitet. Det er å leve mer våkent. Du lærer øvelser, bl.a. mindfulness, for bedre å integrerer og stabiliserer endringene i livet ditt. Utfra helheten i deg selv skaper du en sunn balanse mellom et rikt indre, og aktivt ytre liv. Ved å kultivere varme og vennlighet for deg selv øker du radikalt din egen livskompetanse. </p>
 <div class="post_info post_info_bottom">
-                    <span class="post_info_item post_info_tags">Tags: 
-                        <a class="post_tag_link" href="#">My Office</a>, 
-                        <a class="post_tag_link" href="#">Presentations</a>
-                    </span>
+                 
                 </div>
             </div>
-        
+            <div id="parterapi" style="margin-bottom:100px">
+
+
+            </div>
             <div class="itemscope post_item post_item_single post_featured_default post_format_standard post type-post status-publish format-standard has-post-thumbnail hentry category-standard-blog category-without-sidebar tag-my-office tag-presentations">
-                            <div class="post_featured">
-                                <div class="post_thumb">
-                                    <a class="hover_icon hover_icon_view" href="images/bilde-12.jpg" title="Dealing with Mental Trauma of Severe Desease">
-                                        <img alt="Dealing with Mental Trauma of Severe Desease" src="images/bilde-12.jpg">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="post_content">
+                            
+                            <div class="post_content" >
                                 <div class="post_info">
 
                                 <h1>Parterapi</h1>
-                                    <span class="post_info_item post_info_tags">in 
-                                        <a class="category_link" href="category-standard-blog.html">Standard Blog</a>, 
-                                        <a class="category_link" href="category-without-sidebar.html">Without Sidebar</a>
-                                    </span>
-                                    <span class="post_info_item post_info_posted"> 
-                                        <a href="post-standard.html" class="post_info_date date updated">February 20, 2016</a>
-                                    </span>
-                                    <span class="post_info_item post_info_counters"> 
-                                        <a class="post_counters_item post_counters_comments icon-chat" title="Comments - 1" href="#">
-                                            <span class="post_counters_number">1</span>
-                                        </a>
-                                        <a class="post_counters_item post_counters_likes icon-heart-empty enabled" title="Like" href="#">
-                                            <span class="post_counters_number">0</span>
-                                        </a>
-                                    </span>
+                                <img  class="imgArticle"  alt="Psykoterapi" src="images/bilde-12.jpg">
                                 </div>
                                 <h3>Total kommunikasjon</h3>     
                                 <p>
+                             
                                 Arbeidet består i å gjenfinne den helhetlige måten å relatere på, som muliggjør reell intimitet - kropp, følelser, sinn og sjel. Mange relasjoner strander på at ingen egentlig hører, ser eller kan leve seg inn i hvordan den annen har det. I par-sesjonenen oppdager dere hva kroppsspråket gjemmer, hva utstrålingen formidler, hva de små gestene skjuler av sårbarhet eller sinne, og hva som ligger bak blikket.
 Vi jobber for at dere kan åpne for tilstedeværelse i dere selv, og gi nærværende, ”mindful” oppmerksomhet til partneren. Tale-lytte-teknikker har blitt en av Christine A. Schjetleins grunnleggende tilnærmingsmåter. 
 

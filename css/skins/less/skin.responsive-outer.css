@@ -318,6 +318,11 @@ Very common low res
 	}
 	blockquote {
 		font-size: 1.5em;
+		float:left;
+	}
+	.testimonial {
+		font-size: 0.8em;
+		float:left;
 	}
 	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits,
 	.sc_countdown.sc_countdown_style_1 .sc_countdown_separator {

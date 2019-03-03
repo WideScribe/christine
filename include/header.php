@@ -14,8 +14,8 @@
 
         <!-- style -->
             <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
-            <link rel='stylesheet' href='css/skin.responsive.css' type='text/css' media='all' />
             <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
+            <link rel='stylesheet' href='css/skin.responsive.css' type='text/css' media='all' />
             <link rel='stylesheet' href='js/revslider/css/settings.css' type='text/css' media='all'/>
             <link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all' />
             <link rel='stylesheet' href='js/tooltipster/css/tooltipster.css' type='text/css' media='all' />
@@ -27,6 +27,6 @@
             <link rel='stylesheet' href='css/custom-style.css' type='text/css' media='all' />          
             <link rel='stylesheet' href='css/animations.css' type='text/css' media='all' />
             <link rel="stylesheet" href="js/swiper/swiper.css" type="text/css" media="all" />
-            <link rel="stylesheet" href="js/testimonialcarousel/slick/style.css" media="all" />            
-        <!-- /style -->
+            <link rel="stylesheet" href="js/testimonialcarousel/slick/style.css" media="all" />   
+           
    </head>

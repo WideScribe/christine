@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="scheme_original">
+<html lang="no-nb" class="scheme_original">
 <?php
  include "include/header.php"
 
@@ -14,7 +14,7 @@
                 <?php
                     include "include/navbar.php"
 
-?>
+                ?>
                 <!-- header_mobile --> 
               
             </div>
@@ -22,11 +22,7 @@
                 <div class="top_panel_title_inner top_panel_inner_style_1 title_present_inner breadcrumbs_present_inner panel_img">
                     <div class="content_wrap">
                         <h1 class="page_title">Grid Gallery</h1>
-                        <div class="breadcrumbs">
-                            <a class="breadcrumbs_item home" href="index.html">Home</a>
-                            <span class="breadcrumbs_delimiter"></span>
-                            <span class="breadcrumbs_item current">Grid Gallery</span>
-                        </div>
+                     
                     </div>
                 </div>
             </div>
@@ -406,7 +402,7 @@
                 <div class="contacts_wrap_inner">
                     <div class="content_wrap">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="http://placehold.it/280x134" class="logo_footer" alt="">
                             </a>
                         </div>

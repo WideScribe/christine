@@ -5,8 +5,8 @@
                 <div class="contacts_wrap_inner">
                     <div class="content_wrap">
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="http://placehold.it/280x134" class="logo_footer" alt="">
+                            <a href="index.php">
+                                <img src="images/logo_2.png" class="logo_footer" alt="">
                             </a>
                         </div>
                         <div class="contacts_address">
@@ -74,6 +74,6 @@
             <script type='text/javascript' src='js/core.init.min.js'></script>                
             <script type='text/javascript' src='js/theme.shortcodes.js'></script> 
             <script type='text/javascript' src='js/isotope.pkgd.min.js'></script>        
-            <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>    
+            
         <!-- /All Script -->                 
 

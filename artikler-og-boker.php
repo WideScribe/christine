@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="scheme_original">
+<html lang="no-nb" class="scheme_original">
 <?php
  include "include/header.php"
 
@@ -21,11 +21,7 @@
                 <div class="top_panel_title_inner top_panel_inner_style_3  title_present_inner breadcrumbs_present_inner panel_img">
                     <div class="content_wrap">
                         <h1 class="page_title">Artikler og bøker</h1>
-                        <div class="breadcrumbs">
-                            <a class="breadcrumbs_item home" href="index.php">Hjem</a>
-                            <span class="breadcrumbs_delimiter"></span>
-                        
-                        </div>
+                     
                     </div>
                 </div>
             </div>
@@ -57,9 +53,7 @@
                                 </div>
                                 <div class="post_descr">
                                     <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
-                                    <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                     Se resten av videoene
-                                    </a> 
+                                  
                                 </div>
                             </div>
                         </div>
@@ -86,9 +80,7 @@
                                 </div>
                                 <div class="post_descr">
                                     <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
-                                    <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                     Se resten av videoene
-                                    </a> 
+                                
                                 </div>
                             </div>
                         </div>
@@ -114,9 +106,7 @@
                                 </div>
                                 <div class="post_descr">
                                     <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
-                                    <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                     Se resten av videoene
-                                    </a> 
+                                 
                                 </div>
                             </div>
                         </div>
@@ -142,9 +132,7 @@
                                 </div>
                                 <div class="post_descr">
                                     <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
-                                    <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                     Se resten av videoene
-                                    </a> 
+                                  
                                 </div>
                             </div>
                         </div>
@@ -169,9 +157,7 @@
                                 </div>
                                 <div class="post_descr">
                                     <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
-                                    <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                     Se resten av videoene
-                                    </a> 
+                                 
                                 </div>
                             </div>
                        
@@ -200,8 +186,7 @@
                                     <div class="post_descr">
                                         <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
                                         <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                        Se resten av videoene
-                                        </a> 
+                                   
                                     </div>
                             </div>
                         </div>
@@ -224,9 +209,7 @@
                                 </div>
                                 <div class="post_descr">
                                     <p>Christine A. Schjetlein snakker om hva som nærer det feminineog hvordan fornye dynamikk og intimitet i parforhold i filmen "Kvinnen og meg". Hun hevder kvinners lederstil er samspill - og samarbeidsorientert, og utdyper hvordan den feminine psyken er skapende ut fra motsetninger. Filmen er en poetisk og filosofisk dokumentarfilm regisert av Anette Ostrø i 2012, som søker hun etter større bevissthet og en friere definisjon av det kvinnelige.</p>
-                                    <a href="post-standard.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">
-                                     Se resten av videoene
-                                    </a> 
+                                   
                                 </div>
                             </div>
                         </div>

@@ -4,70 +4,49 @@
                         <div class="scheme_dark">
                             <div class="top_panel_top top_panel_inner_style_3">
                                 <div class="content_wrap clearfix">
-                                    <div class="top_panel_top_contact_area contact_address"><em class="icon icon-house158"></em> <span>Neuberggata 5A, 0367 Oslo</span></div>
-                                  <div class="top_panel_top_user_area">
-                                        <div class="top_panel_top_contact_area contact_email">
+                                    <div class="top_panel_top_contact_area contact_address">
+                                        <em class="icon icon-house158"></em> 
+                                        <span>Neuberggata 5A, 0367 Oslo</span>
+                                    </div>
+                               
+                                    <div class="top_panel_top_user_area">
+                                        <div style="margin-right:200px" class="top_panel_top_contact_area contact_email">
                                             <i class="icon icon-mail81"></i>
                                             <span>christine@schjetlein.no
                                             </span>
                                         </div>
-                                        <div class="top_panel_top_contact_area contact_phone">
-                                            
-                                      </div>
+                                        <div class="top_panel_top_contact_area contact_address" style="margin-left:25px">
+                                       
+                                       <a href="https://www.facebook.com/psykoterapeutchristineschjetlein"> <em class="icon icon-facebook"></em> </a>
+                                   </div>
+                                   <div class="top_panel_top_contact_area contact_address" style="margin-left:25px">
+                                     
+                                       <a href="https://www.linkedin.com/in/christine-arentz-schjetlein-87a55214b">  <em class="icon icon-linkedin"></em> </a>
+                                   </div>
                                         <ul id="menu_user" class="menu_user_nav">
-                                          <li class="menu-item menu-item-type-post_type"> <a href="appointment.html">Book en time</a> </li>
+                                          <li class="menu-item menu-item-type-post_type"> <a href="kontakt.php">Book en time</a> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="scheme_light">
-                            <div class="top_panel_middle top_panel_inner_style_3">
+                            <div class="top_panel_middle">
                                 <div class="content_wrap">
                                     <div class="contact_logo">
                                         <div class="logo">
                                             <a href="index.php">
-                                                <img src="images/logo_placeholder.png" class="logo_main" alt="">
+                                                <img  src="images/logo_2.png" class="logo_main" alt="">
                                              
                                             </a>
                                         </div>
                                     </div>
                                     <div class="menu_main_wrap">
                                         <nav class="menu_main_nav_area">
-                                            <ul id="menu_main" class="menu_main_nav">
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="index.php">Hjem</a>
-                                                </li>
-                                                <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
-                                                    <a href="#">Veiledning</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="psykoterapi.php">Psykoterapi</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="coaching.php">Coaching</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item ">
-                                                    <a href="referanser.php">Referanser</a>
-                                                 
-                                                </li>
-                                                <li class="menu-item menu-item-has-children">
-                                                    <a href="">I media</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="blogg.php">Blogg</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="filmsnutter-og-podkaster.php">Filmsnutter og podkaster</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="artikler-og-boker.php">Artikler og bøker</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <?php
+                                           
+                                                include 'navbar-ul-element.php';
+                                            ?>
                                         </nav>
                                     </div>
                                 </div>
@@ -80,8 +59,8 @@
                     <div class="content_wrap">
                         <div class="menu_button icon-menu"></div>
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="images/logo_placeholder.png" class="logo_main" alt="">
+                            <a href="index.php">
+                                <img src="images/logo_1.png" class="logo_main" alt="">
                             </a>
                         </div>
                     </div>
@@ -89,64 +68,11 @@
                         <div class="close">Close</div>
                         <!-- panel_top -->
                         <div class="panel_top">
-                            <ul id="menu_main_mobile" class="menu_main_nav">
-                                <li class="menu-item menu-item-has-children">
-                                        <a href="index.php">Hjem</a>
-                                </li>
-                                <li class="menu-item menu-item-has-children">
-                                <a href="#">Veiledning</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="psykoterapi.php">Psykoterapi</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="coaching.php">Coaching</a>
-                                                        </li>
-                                                    </ul>
-                                </li>
-                                <li class="menu-item ">
-                                                    <a href="referanser.php">Referanser</a>
-                                                 
-                                                </li>
-                                <li class="menu-item menu-item-has-children">
-                                    <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item">
-                                            <a href="category-standard-blog.html">Standard Blog</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="category-without-sidebar.html">Without Sidebar</a>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="#">Blog Masonry</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item">
-                                                    <a href="category-masonry-2-columns.html">Masonry 2 Columns</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="category-masonry-3-columns.html">Masonry 3 Columns</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children">
-                                                <a href="referanser.php">I media</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item">
-                                                            <a href="blogg.php">Blogg</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="filmsnutter-og-podkaster.php">Filmsnutter og podkaster</a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a href="artikler-og-boker.php">Artikler og bøker</a>
-                                                        </li>
-                                                    </ul>
-                                        </li>
-                                        
-                                    </ul>
-                                </li>
-                          
-                            </ul>
+                            <?php
+                            
+                                include 'navbar-ul-element-mobile.php';
+                            ?>
+                       
                         </div>
                         <!-- /panel_top -->                    
                         

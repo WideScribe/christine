@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="scheme_original">
+<html lang="no-nb" class="scheme_original">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -66,7 +66,7 @@
                                 <div class="content_wrap">
                                     <div class="contact_logo">
                                         <div class="logo">
-                                            <a href="index.html">
+                                            <a href="index.php">
                                                 <img src="http://placehold.it/343x55" class="logo_main" alt="">
                                                 <img src="http://placehold.it/250x40" class="logo_fixed" alt="">
                                             </a>
@@ -79,7 +79,7 @@
                                                     <a href="#">Home</a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item">
-                                                            <a href="index.html">Home 1</a>
+                                                            <a href="index.php">Home 1</a>
                                                         </li>
                                                         <li class="menu-item">
                                                             <a href="index-2.html">Home 2</a>
@@ -112,7 +112,7 @@
                                                             <a href="typography.html">Typography</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a target="_blank" href="doc/index.html">Documentation</a>
+                                                            <a target="_blank" href="doc/index.php">Documentation</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -209,7 +209,7 @@
                     <div class="content_wrap">
                         <div class="menu_button icon-menu"></div>
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="http://placehold.it/330x53" class="logo_main" alt="">
                             </a>
                         </div>
@@ -223,7 +223,7 @@
                                     <a href="#">Home</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item">
-                                            <a href="index.html">Home 1</a>
+                                            <a href="index.php">Home 1</a>
                                         </li>
                                         <li class="menu-item">
                                             <a href="index-2.html">Home 2</a>
@@ -256,7 +256,7 @@
                                             <a href="typography.html">Typography</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a target="_blank" href="doc/index.html">Documentation</a>
+                                            <a target="_blank" href="doc/index.php">Documentation</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -369,7 +369,7 @@
                     <div class="content_wrap">
                         <h1 class="page_title">Power of Education</h1>
                         <div class="breadcrumbs">
-                            <a class="breadcrumbs_item home" href="index.html">Home</a>
+                            <a class="breadcrumbs_item home" href="index.php">Home</a>
                             <span class="breadcrumbs_delimiter"></span>
                             <span class="breadcrumbs_item current">Power of Education</span>
                         </div>
@@ -585,7 +585,7 @@
                 <div class="contacts_wrap_inner">
                     <div class="content_wrap">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="http://placehold.it/280x134" class="logo_footer" alt="">
                             </a>
                         </div>
